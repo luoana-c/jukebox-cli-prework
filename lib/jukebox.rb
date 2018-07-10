@@ -47,6 +47,8 @@ def run(songs)
   puts "Please enter a command:"
   command = gets.chomp
   while command != "exit"
+    puts "Please enter a command:"
+  command = gets.chomp
     if command == "help"
       help
     elsif command == "list"
